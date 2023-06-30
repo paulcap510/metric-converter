@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero {
+    background: #6943fe;
+    color: white;
+    padding: 30px;
+}
+
+.main {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+.section {
+    background: white;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+#number-input {
+    width: 80px;
+    height: 80px;
+    background: #6943fe;
+    color: white; /* Set the font color to white */
+    text-align: center; 
+    font-size: 35px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#number-input::placeholder {
+    color: white;
+  }
+
+#convert-btn {
+    margin-top: 10px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #3d3d3d;
+    padding: 10px;
+}
